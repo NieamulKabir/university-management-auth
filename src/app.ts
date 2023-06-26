@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from 'express'
 const app: Application = express()
 
 import cors from 'cors'
-import usersService from './app/modules/users/users.service'
+import router from './app/modules/users/users.route'
 
 //use cors
 app.use(cors())
@@ -11,12 +11,10 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+//application route
+app.use('/api/v1/users/', router)
+
 app.get('/', async (req: Request, res: Response) => {
-  await usersService.createUser({
-    id: '1945',
-    password: '1246',
-    role: 'student',
-  })
   res.send('Working Successfully')
 })
 
