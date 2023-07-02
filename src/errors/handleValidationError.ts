@@ -1,6 +1,6 @@
-import mongoose from 'mongoose'
-import { IGenericErrorMessage } from '../interfaces/error'
-import { IGenericErrorResponse } from '../interfaces/common'
+import mongoose from 'mongoose';
+import { IGenericErrorMessage } from '../interfaces/error';
+import { IGenericErrorResponse } from '../interfaces/common';
 
 export const handleValidationError = (
   err: mongoose.Error.ValidationError
@@ -10,13 +10,13 @@ export const handleValidationError = (
       return {
         path: element?.path,
         message: element?.message,
-      }
+      };
     }
-  )
-  const statusCode = 400
+  );
+  const statusCode = 400;
   return {
     statusCode,
     message: 'Validation Error',
     errorMessages: errors,
-  }
-}
+  };
+};
