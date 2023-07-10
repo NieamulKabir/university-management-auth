@@ -1,15 +1,20 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\.19dfb2aff6f08f5440fec0ed7160417a8e260f98-audit.json",
-  "files": [
-    {
-      "date": 1687938725879,
-      "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-28-06-13-success.log",
-      "hash": "fba4bf618ffeb51f598ccd06f1f0bc0bb0a578e9beb01d702417574ebdba4855"
-    }
-  ],
-  "hashType": "sha256"
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\.19dfb2aff6f08f5440fec0ed7160417a8e260f98-audit.json",
+    "files": [
+        {
+            "date": 1687938725879,
+            "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-28-06-13-success.log",
+            "hash": "fba4bf618ffeb51f598ccd06f1f0bc0bb0a578e9beb01d702417574ebdba4855"
+        },
+        {
+            "date": 1688997535896,
+            "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-10-07-19-success.log",
+            "hash": "6daa221f6bf5638a970f1486c38d707adc1e97e1d1136650049140a17ef2c259"
+        }
+    ],
+    "hashType": "sha256"
 }
