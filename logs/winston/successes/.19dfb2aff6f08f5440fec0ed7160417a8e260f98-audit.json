@@ -14,6 +14,16 @@
             "date": 1688997535896,
             "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-10-07-19-success.log",
             "hash": "6daa221f6bf5638a970f1486c38d707adc1e97e1d1136650049140a17ef2c259"
+        },
+        {
+            "date": 1688997795874,
+            "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-10-07-20-success.log",
+            "hash": "f4208b0a9d9e2f09061859d555f6dd831450f7748a91d3c05f207d36cb012fc4"
+        },
+        {
+            "date": 1689003422050,
+            "name": "E:\\MERN\\Next-Level\\University-management-auth-service\\logs\\winston\\successes\\phu-2023-10-07-21-success.log",
+            "hash": "6cfc35d10afc5ea94a004f31ffc0c241739d9a009cf0f66d51a5d600abc3811e"
         }
     ],
     "hashType": "sha256"
